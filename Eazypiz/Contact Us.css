@@ -1,0 +1,46 @@
+.logo{
+    height:50px;
+}
+
+.ul li{
+    list-style-type: none;
+  }
+
+  .ul a{
+      text-decoration: none;
+      color:black;
+  }
+  .plus{
+    height: 10px;
+  }
+  .news{
+    box-shadow: 0px 3px 8px 0px yellow;
+    border:none;
+  }
+  .footer-logo{
+    height:30px;
+  }
+  .footer-text{
+    font-size: 9px;
+  }
+  .footer-text li a{
+    text-decoration: none;
+    color:grey;
+  }
+  .footer-text li{
+    list-style-type:none ;
+    padding: 10px;
+  }
+  .footer-text ul{
+    padding: 10px;
+  }
+
+
+  .foot-txt{
+    font-size: 10px;
+  }
+  
+  h2{
+    font-size:25px;
+    font-weight: bold;
+}

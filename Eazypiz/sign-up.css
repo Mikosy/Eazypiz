@@ -1,0 +1,68 @@
+.logo{
+    height:50px;
+
+}
+h1{
+    font-size:24px;
+}
+.sub-nav ul li{
+    list-style-type: none;
+
+}
+.sub-nav ul{
+    display: flex;
+}
+.sub-nav a{
+    text-decoration:none;
+    color: white;
+}
+.header{
+    background-image: url(./Images/Mike.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: none;
+}
+.card-logo{
+    height:60px;
+    padding: 10px;
+}
+.login{
+    border-radius: 18px;
+    padding: 7px 25px 7px 25px;
+}
+h2{
+    font-size: 29px;
+    text-decoration: underline;
+    text-underline-offset:10px;
+    text-decoration-color: yellow;
+}
+.font{
+    font-family: Montserrat;
+}
+
+
+.justify{
+    height: 60px;
+    width: auto;
+    margin-left: 50px;
+}
+
+.payment img{
+   height: 50px;
+   width: 50px;
+   margin: 10px;
+}
+.f-l a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.f-l{
+    line-height: 10px;
+}
+.foot-txt{
+    font-size: 10px;
+  }
+.footer-logo{
+    height:30px;
+}

@@ -1,0 +1,208 @@
+.logo{
+    height:50px;
+}
+
+.under-nav{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./Images/xb2.jpg.pagespeed.ic.TrRaz3pXkS.webp);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: none;
+}
+h1{
+    padding-top: 200px;
+    font-size: 80px;
+    letter-spacing: 3px;
+    font-family: montserrat;
+}
+
+.sub-h1 {
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: montserrat;
+    letter-spacing: 7px;
+    overflow: hidden;
+    /* border-right: 2px solid hsl(0, 0%, 80%); */
+    white-space: nowrap;
+    animation: typewriter 4s steps(40) 1s 1 normal both, blinkTextCursor 500ms infinite;
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 10px;
+    }
+    to {
+      width: 1300px;
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: hsl(0, 0%, 80%);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+  
+/* h1 span{
+    transition: 0.5s ease-out;
+}
+h1:hover span:nth-child(1){
+    margin-right: 5px;
+}
+h1:hover span:nth-child(1):after{
+    content:"'"
+}
+h1:hover span:nth-child(2){
+    margin-left:30px;
+}
+h1:hover span{
+    color:#fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+    cursor: pointer;
+} */
+h2{
+    font-family: montserrat;
+    font-size: 20px;
+    color: orange;
+}
+h3{
+    font-family: montserrat;
+    font-size: 20px;
+    color: orange;
+}
+h4{
+    font-family: arial;
+    font-size: 40px;
+    color: black;
+    padding: 10px 0px 10px 0px;
+}
+h5{
+    font-family: arial;
+    font-size: 40px;
+    color: black;
+    padding: 10px 0px 0px 0px;
+}
+.create{
+    font-family: arial;
+    font-size: 30px;
+}
+.row5{
+    font-size: 11px;
+    color: grey;
+}
+.row5 a{
+    text-decoration:underline;
+    color: grey;
+}
+.row4{
+    font-size: 13px;
+}
+.row4 p{
+    font-weight: bold;
+    font-family: arial;
+}
+.row4 li{
+    list-style-type:none ;
+    line-height: 30px;
+    font-family: arial;
+}
+.row4 li a{
+    text-decoration: none;
+    color: grey;
+}
+.row4 li a:hover{
+    text-decoration: underline;
+    text-underline-offset:5px;
+    text-decoration-thickness:3px;
+}
+small{
+    padding: 10px 0px 10px 0px;
+}
+.portable{
+    font-size:25px;
+    font-family: arial;
+    color:#ffa500;
+    padding-top:10px;
+}
+.card{
+    border-radius: 10px;
+}
+.jumbo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.jumbotron{
+    border-radius: 10px;
+    background-color: #ffa500;
+}
+.jumbotron:hover{
+    color:white;
+    transition: 1s;
+    
+}
+.bt{
+    border-radius: 14px;
+}
+.bt:hover{
+    background-color: white;
+}
+.numbers{
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.eaz{
+    transition:1.5s;
+}
+.newsletter:hover{
+     background-color:black;
+     color: white;
+     border: none;
+     padding-right: 40px;
+}
+.e-v{
+    background-image:linear-gradient(rgba(0,0,0.5),rgba(0,0,0,0.5)), url(./Images/ep.JPG);
+    background-size: cover;
+    height: 60vh;
+    border-radius: 17px;
+}
+.mm{
+    padding-top: 160px;
+}
+
+
+
+
+
+@media screen and (max-width:896px){
+
+    .sub-h1 {
+        letter-spacing: 3px;
+        }
+    
+      @keyframes typewriter {
+        from {
+          width: 0;
+        }
+        to {
+          width: 370px;
+        }
+      }
+}
+
+/* 
+@media screen and (max-width:1500px){
+    .sub-h1 {
+        letter-spacing: 5px;
+        }
+    
+    @keyframes typewriter {
+        from {
+          width: 0;
+        }
+        to {
+          width: 780px;
+        }
+      }
+} */

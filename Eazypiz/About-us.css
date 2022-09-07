@@ -1,0 +1,79 @@
+
+.logo{
+    height:50px;
+}
+
+h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: montserrat;
+    letter-spacing: normal;
+    overflow: hidden;
+    /* border-right: 2px solid hsl(0, 0%, 80%); */
+    white-space: nowrap;
+    animation: typewriter 4s steps(40) 1s 1 normal both, blinkTextCursor 500ms infinite;
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 10px;
+    }
+    to {
+      width: 1000px;
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: hsl(0, 0%, 80%);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  } 
+  .z{
+    height: 60vh;
+    width:100%;;
+  }
+  .learn{
+    font-size: 12px;
+    color:black;
+  }
+
+  .ul li{
+    list-style-type: none;
+  }
+  .ul a{
+    color: grey;
+    text-decoration: none;
+  }
+  .plus{
+    height: 10px;
+  }
+  .news{
+    box-shadow: 0px 3px 8px 0px yellow;
+    border:none;
+  }
+  .footer-logo{
+    height:30px;
+  }
+  .footer-text{
+    font-size: 9px;
+  }
+  .footer-text li a{
+    text-decoration: none;
+    color:grey;
+  }
+  .footer-text li{
+    list-style-type:none ;
+    padding: 10px;
+  }
+  .footer-text ul{
+    padding: 10px;
+  }
+
+
+  .foot-txt{
+    font-size: 10px;
+  }
+  
